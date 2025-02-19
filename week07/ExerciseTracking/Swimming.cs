@@ -8,6 +8,7 @@ public class Swimming : Activity
     {
         _numberLaps = numberLaps;
         SetName("Swimming");
+        
     }
 
     public override double Distance()

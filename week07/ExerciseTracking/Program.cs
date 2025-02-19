@@ -13,6 +13,7 @@ class Program
         foreach(Activity activity in activityList)
         {
             Console.WriteLine(activity.GetSummary());
+            
         }
     }
 }

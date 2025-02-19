@@ -3,7 +3,7 @@ using System.Dynamic;
 
 public abstract class Activity
 {
-    private DateTime _date = new DateTime(2025,2,12);
+    private DateTime _date;
     private double _lengthMin;
     
     private string _name;
@@ -11,7 +11,7 @@ public abstract class Activity
     public Activity(string date, double lengthMin) 
     {
         DateTime dateParse = DateTime.Parse(date);
-      //  _date = dateParse;
+        _date = dateParse;
         _lengthMin = lengthMin;
     }
 

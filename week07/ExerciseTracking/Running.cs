@@ -8,6 +8,7 @@ public class Running : Activity
     {
         _distance = distance;
         SetName("Running");
+        
     }
 
     public override double Distance()
